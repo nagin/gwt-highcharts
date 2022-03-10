@@ -39,6 +39,8 @@ public class Highcharts {
 
 	public native static Highcharts chart(String elementId, ChartOptions chartOptions);
 
+	public native static Highcharts stockChart(String elementId, ChartOptions chartOptions);
+
 	public native static Highcharts mapChart(String elementId, ChartOptions chartOptions);
 
 	public native static SVGRenderer Renderer(Element container, Double width, Double height);
